@@ -146,5 +146,13 @@
     "word-wrap": "^1.2.3",
     "wrappy": "^1.0.2"
   },
-  "description": ""
+  "description": "* This is donna's streak bot",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dave-cao/donna-streaks.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dave-cao/donna-streaks/issues"
+  },
+  "homepage": "https://github.com/dave-cao/donna-streaks#readme"
 }
