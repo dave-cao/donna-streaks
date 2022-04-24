@@ -19,8 +19,8 @@ module.exports = class Action {
     // Channels
     this.newChannelID = newState.channelId;
     this.oldChannelID = oldState.channelId;
-    this.grindChannelVC = '967874095809175603';
-    this.streakChannel = newState.guild.channels.cache.get('789704919283400754');
+    this.grindChannelVC = '775468177844862986';
+    this.streakChannel = newState.guild.channels.cache.get('795046289871994890');
     // this.accountabilityChannel = newState.guild.channels.cache.get('921966065108521004');
 
     // All purpose
