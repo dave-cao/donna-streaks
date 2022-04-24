@@ -68,7 +68,7 @@ module.exports = (userInfo, streakChannel, USER) => {
 
         // Updated streak message
         streakChannel.send(
-          `<@${user.userID}> Your **Donut Streak** has increased!\n\`Current Streak: ${user.streak}\`\n\`Max Streak: ${user.maxStreak}\`\n\nKeep on making the dough.`,
+          `<@${user.userID}> Your **Donut Streak** has increased!\n\`Current Streak: ${user.streak}\`\n\`Max Streak: ${user.maxStreak}\`\n\nContinue making that dough!`,
         );
 
         // Update streak date
