@@ -9,6 +9,9 @@ module.exports = {
    * @returns {bool} - true if the date is within today
    */
   isThisDay(date) {
+    // FIXME: need to initlizae this.now again
+    this.now = new Date();
+    console.log(this.now);
     return this.now.toDateString() === date.toDateString();
   },
 
