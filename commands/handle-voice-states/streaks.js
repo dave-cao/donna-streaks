@@ -76,7 +76,7 @@ module.exports = (userInfo, streakChannel, USER) => {
       }
     }
     USER.saveUserData(user);
-  }, 12 * MINUTE);
+  }, 5000);
 
   return user;
 };
